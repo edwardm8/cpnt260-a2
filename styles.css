@@ -1,0 +1,53 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+
+}
+img{
+    width: 60%;
+
+}
+p{
+    color: white;
+    
+    margin: auto;
+    
+}
+.card{
+    font-family:'Courier New', Courier, monospace;
+
+    background-color: #E36363;
+
+    max-width: 40ch;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 10ch;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card a, .cta a:visited {
+    background-color: hsl(12,100%,50%);
+    color:white;
+  
+    font-family: "Carter One",serif;
+    text-decoration: none;
+   
+    margin: auto;
+    display: block;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+  }
+  
+  /* Hover state */
+  .card a:hover {
+    color: hsl(12,100%,50%);
+    background-color:hsl(12,100%,20%);
+  }
+
+  /* Click state */
+.card a:active {
+    background-color: #fcb900;
+  }
