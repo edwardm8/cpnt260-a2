@@ -4,12 +4,13 @@ body{
     line-height: 1.5;
 
 }
+
 img{
     width: 60%;
 
 }
 p{
-    color: white;
+    color:#222222;
     
     margin: auto;
     
@@ -34,7 +35,9 @@ p{
     font-family: "Carter One",serif;
     text-decoration: none;
    
+    
     margin: auto;
+    margin-top: 1rem;
     display: block;
     width: fit-content;
     padding: 0.5rem 1rem;
