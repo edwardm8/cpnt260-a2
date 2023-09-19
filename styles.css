@@ -4,21 +4,27 @@ body{
     line-height: 1.5;
 
 }
-
+body
 img{
     width: 60%;
 
 }
 p{
-    color:#222222;
+    color:#242038;
     
     margin: auto;
     
 }
+.whole{
+  display: block;
+  
+  margin: auto;
+  padding: 1rem;
+}
 .card{
     font-family:'Courier New', Courier, monospace;
 
-    background-color: #E36363;
+    background-color:#F7ECE1;
 
     max-width: 40ch;
     border-radius: 1rem;
@@ -28,29 +34,29 @@ p{
     padding: 2rem;
 }
 
-.card a, .cta a:visited {
-    background-color: hsl(12,100%,50%);
-    color:white;
-  
+.order, .order:visited {
+    background-color:#8D86C9;
+    color: white;
     font-family: "Carter One",serif;
     text-decoration: none;
+    font-size: 20px;
    
     
     margin: auto;
     margin-top: 1rem;
     display: block;
     width: fit-content;
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     border-radius: 1rem;
   }
   
   /* Hover state */
-  .card a:hover {
-    color: hsl(12,100%,50%);
-    background-color:hsl(12,100%,20%);
+.order:hover {
+    color:  #393433;
+    background-color:#9067C6;
   }
 
   /* Click state */
-.card a:active {
+.order:active {
     background-color: #fcb900;
   }
