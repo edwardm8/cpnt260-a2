@@ -1,25 +1,27 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.5;
-
 }
-body
+h3{
+  font-size:30px;
+  margin: auto;
+}
 img{
     width: 60%;
-
+    object-fit: contain;
 }
 p{
     color:#242038;
     
-    margin: auto;
-    
+    margin: auto;    
 }
 .whole{
   display: block;
   
-  margin: auto;
   padding: 1rem;
+
+  text-decoration: none;
 }
 .card{
     font-family:'Courier New', Courier, monospace;
@@ -27,11 +29,17 @@ p{
     background-color:#F7ECE1;
 
     max-width: 40ch;
-    border-radius: 1rem;
     margin: auto;
-    margin-top: 10ch;
     text-align: center;
     padding: 2rem;
+
+    /*https://www.w3schools.com/cssref/css3_pr_box-shadow.php for box shadow*/
+    box-shadow: 3px 5px;
+
+    border: #393433;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1rem;
 }
 
 .order, .order:visited {
@@ -52,11 +60,11 @@ p{
   
   /* Hover state */
 .order:hover {
-    color:  #393433;
+    color:  black;
     background-color:#9067C6;
   }
 
   /* Click state */
-.order:active {
-    background-color: #fcb900;
-  }
+.card:hover{
+  background-color:hsl(30, 58%, 87%);
+}
