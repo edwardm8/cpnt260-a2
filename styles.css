@@ -3,30 +3,23 @@ body{
     font-size: 20px;
     line-height: 1.5;
 }
+
 h3{
   font-size:30px;
   margin: auto;
+  padding-bottom: 2rem;
 }
+
 img{
     width: 60%;
     object-fit: contain;
 }
-p{
-    color:#242038;
-    
-    margin: auto;    
-}
-.whole{
-  display: block;
-  
-  padding: 1rem;
 
-  text-decoration: none;
-}
-.card{
+figure{
     font-family:'Courier New', Courier, monospace;
 
     background-color:#F7ECE1;
+    color:#242038;
 
     max-width: 40ch;
     margin: auto;
@@ -40,6 +33,11 @@ p{
     border-style: solid;
     border-width: 2px;
     border-radius: 1rem;
+}
+
+.whole, .whole:visited{
+  text-decoration: none;
+  color: inherit;
 }
 
 .order, .order:visited {
@@ -65,6 +63,12 @@ p{
   }
 
   /* Click state */
-.card:hover{
+figure:hover{
   background-color:hsl(30, 58%, 87%);
+}
+figure:active{
+  color:purple;
+}
+figcaption:active{
+  color:purple;
 }
