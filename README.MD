@@ -12,5 +12,5 @@ Above and beyond:
 Figure and figcaption
 
 html: line 13-19
-css: line 22-43
+css: line 22-40
 
