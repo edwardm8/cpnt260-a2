@@ -1,8 +1,8 @@
 body{
-    font-size: 20px;
-    line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.5;
 
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 h3{
@@ -14,28 +14,28 @@ h3{
 }
 
 img{
-    width: 60%;
-    padding: 2rem;
+  width: 60%;
+  padding: 2rem;
 }
 
 /*card styling*/
 figure{
-    font-family: 'Fauna One', serif;
+  font-family: 'Fauna One', serif;
 
-    background-color:#F7ECE1;
-    color:#9067C6;;
+  background-color:#F7ECE1;
+  color:#9067C6;;
 
-    max-width: 40ch;
-    margin: auto;
-    text-align: center;
+  max-width: 40ch;
+  margin: auto;
+  text-align: center;
 
-    /*https://www.w3schools.com/cssref/css3_pr_box-shadow.php for box shadow*/
-    box-shadow: 3px 5px;
+  /*https://www.w3schools.com/cssref/css3_pr_box-shadow.php for box shadow*/
+  box-shadow: 3px 5px;
 
-    border: #393433;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 1rem;
+  border: #393433;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 1rem;
 }
 
 figcaption{
@@ -50,20 +50,20 @@ figcaption{
 
 /* button effects */
 .order, .order:visited {
-    background-color:#8D86C9;
-    color: white;
+  background-color:#8D86C9;
+  color: white;
 
-    font-family: 'Cinzel', sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    
-    margin: auto;
-    margin-top: 1rem;
-    display: block;
-    width: fit-content;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    border-radius: 1rem;
+  font-family: 'Cinzel', sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  
+  margin: auto;
+  margin-top: 1rem;
+  display: block;
+  width: fit-content;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
   }
   
   /* Hover state */
