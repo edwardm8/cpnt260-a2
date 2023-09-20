@@ -1,12 +1,14 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     line-height: 1.5;
+
     padding-top: 3rem;
 }
 
 h3{
   font-size:30px;
+  font-family: 'Cinzel', sans-serif;
+
   margin: auto;
   padding-bottom: 1rem;
 }
@@ -16,8 +18,9 @@ img{
     padding: 2rem;
 }
 
+/*card styling*/
 figure{
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Fauna One', serif;
 
     background-color:#F7ECE1;
     color:#9067C6;;
@@ -39,18 +42,20 @@ figcaption{
   padding: 1rem;
 }
 
+/* whole item card clickable effects */
 .whole, .whole:visited{
   text-decoration: none;
   display: block;
 }
 
+/* button effects */
 .order, .order:visited {
     background-color:#8D86C9;
     color: white;
-    font-family: "Carter One",serif;
+
+    font-family: 'Cinzel', sans-serif;
     text-decoration: none;
     font-size: 20px;
-   
     
     margin: auto;
     margin-top: 1rem;
@@ -63,12 +68,17 @@ figcaption{
   
   /* Hover state */
 .order:hover {
-    color:  black;
-    background-color:#9067C6;
-  }
+  color:black;
+  background-color:#9067C6;
+}
 
   /* Click state */
 figure:hover{
-  background-color:hsl(30, 58%, 87%);
+  background-color:hsl(30, 58%, 85%);
+}
+
+/*card active*/
+.whole:active{
+  color:#9067C6;
 }
 
