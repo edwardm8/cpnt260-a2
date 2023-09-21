@@ -9,7 +9,7 @@
 
 ### Above and beyond: Figure and figcaption
 
-html: line 13-19
+html: line 17-24
 
 css: line 22-40
 
